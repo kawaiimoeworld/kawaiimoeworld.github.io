@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    animation: backgroundChange 7s infinite alternate;
+  }
+
+  .main_text {
+    margin-bottom: 20px;
+  }
+
+  .moe {
+    display: block;
+    font-size: 1.2rem;
+  }
+
+  .image_div {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .center-image {
+    width: 200px; 
+    height: auto;
+  }
+
+  @keyframes backgroundChange {
+    0% {
+      background-color: #ff087b; 
+    }
+    25% {
+      background-color: #ff08ef; 
+    }
+    50% {
+      background-color: #fc2654;
+    }
+    75% {
+      background-color: #9370DB;
+    }
+    100% {
+      background-color: #8A2BE2; 
+    }
+  }

@@ -1,0 +1,14 @@
+{
+    "image1.png": {
+      "author": "Name",
+      "description": "Description"
+    },
+    "image2.png": {
+      "author": "Name1",
+      "description": "Description_1"
+    },
+    "image3.png": {
+      "author": "Name2",
+      "description": "Description_2"
+    }
+  }

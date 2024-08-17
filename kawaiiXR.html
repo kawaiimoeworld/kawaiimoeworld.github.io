@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style rel="stylesheet" src="css/main.css"></style>
+    <title>XR Experience</title>
+</head>
+<body>
+    <div id="message">Checking for XR hardware...</div>
+    <a id="enterLink" href="XR/index.html" style="display: none;">
+        <button id="enterButton">Enter XR Experience</button>
+    </a>
+
+    <script>
+        if (navigator.xr) {
+            navigator.xr.isSessionSupported('immersive-vr').then((supported) => {
+                if (supported) {
+                    document.getElementById('message').textContent = "XR hardware detected! nya~!";
+                    document.getElementById('enterButton').textContent = "Enter XR Experience";
+                } else {
+                    document.getElementById('message').textContent = "No XR hardware detected, but don't worry :3, you can still try it in browser mode";
+                    document.getElementById('enterButton').textContent = "Enter XR Experience Anyway";
+                }
+                document.getElementById('enterLink').style.display = "inline-block";
+            });
+        } else {
+            document.getElementById('message').textContent = "WebXR not supported on this browser, purr~!";
+            document.getElementById('enterButton').textContent = "Enter XR Experience Anyway";
+            document.getElementById('enterLink').style.display = "inline-block";
+        }
+    </script>
+</body>
+</html>
