@@ -1,0 +1,192 @@
+{
+    "waifu": {
+        "console_open_msg": ["(・`ω´・) Heyy~ why are you opening the console? You wanna see my secwet :3?"],
+        "copy_message": ["Ww-wwhat did you copy ?"],
+        "screenshot_message": ["ヾ( ￣O￣)ツ You know I see you when you screenshot it's because I'm cute :3 ?"],
+        "hidden_message": ["O.O"],
+        "load_rand_textures": ["Hya~"],
+        "hour_tips": {
+            "t5-7": ["Morrning, Hewo"],
+            "t7-11": ["mmm"],
+            "t11-14": ["Hyaaa~"],
+            "t14-17": ["uh?"],
+            "t17-19": ["Whaa~"],
+            "t19-21": ["H-hya~"],
+            "t21-23": ["..."],
+            "t23-5": [">~<"],
+            "default": ["Hi~ Come and play with me!"]
+        },
+"referrer_message": {
+    "localhost": ["Welcome to <span style=\"color:DarkBlue;\">『", "』</span>", " - "],
+    "baidu": ["Hello! Friend from Baidu Search<br>Did you find me by searching <span style=\"color:DarkBlue;\">", "</span>?"],
+    "so": ["Hello! Friend from 360 Search<br>Did you find me by searching <span style=\"color:DarkBlue;\">", "</span>?"],
+    "google": ["Hello! Friend from Google Search<br>Welcome to read <span style=\"color:DarkBlue;\">『", "』</span>", " - "],
+    "default": ["Hello! Friend from <span style=\"color:DarkBlue;\">", "</span>"],
+    "none": ["Welcome to <span style=\"color:DarkBlue;\">『", "』</span>", " - "]
+},
+"referrer_hostname": {
+    "note6.konata.tech": ["You really can't stay away from me, huh? ^_^"],
+    "note.konata.tech": ["You really can't stay away from me, huh? ^_^"]
+},
+"model_message": {},
+"hitokoto_api_message": {
+    "lwl12.com": ["This quote is from <span style=\"color:DarkBlue;\">『{source}』</span>", ", submitted by <span style=\"color:DarkBlue;\">{creator}</span>", "."],
+    "fghrsh.net": ["This quote is from <span style=\"color:DarkBlue;\">『{source}』</span>, collected by <span style=\"color:DarkBlue;\">FGHRSH</span> on {date}!"],
+    "jinrishici.com": ["This poem is from <span style=\"color:DarkBlue;\">《{title}》</span>, created by the {dynasty} poet {author}!"],
+    "hitokoto.cn": [
+        "This quote is from <span style=\"color:DarkBlue;\">『{source}』</span>, submitted by <span style=\"color:DarkBlue;\">{creator}</span> on hitokoto.cn."
+    ]
+}
+},
+"mouseover": [
+    {
+        "selector": ".container a[href^=\"http\"]",
+        "text": ["Want to check out <span style=\"color:DarkBlue;\">{text}</span>?"]
+    }, {
+        "selector": ".waifu-tool>.icon-home",
+        "text": ["Click here to go to the homepage~"]
+    }, {
+        "selector": ".waifu-tool>.icon-message",
+        "text": ["A word, a smile. A sentence, a boat race."]
+    }, {
+        "selector": ".waifu-tool>.icon-next",
+        "text": ["Hmm... Want to switch the waifu?"]
+    }, {
+        "selector": ".waifu-tool>.icon-camera",
+        "text": ["Want to take a commemorative photo?"]
+    }, {
+        "selector": ".waifu-tool>.icon-about",
+        "text": ["Here's some information about me~"]
+    }, {
+        "selector": ".waifu-tool>.icon-cross",
+        "text": ["Nyyyoooo~ w-w-wwhy (> _ <)"]
+        }, {
+            "selector": ".waifu-tool>.icon-volumeup",
+            "text": ["iiinnnNNCREASE volume hya~"]
+        }, {
+            "selector": ".waifu-tool>.icon-volumedown",
+            "text": ["LLLllloowing volume hya~"]
+        }, {
+            "selector": "#floating-toc-btn",
+            "text": ["..."]
+        }, {
+            "selector": "#searchIcon",
+            "text": ["Hya~"]
+        }, {
+            "selector": "#backTop",
+            "text": ["..."]
+        }, {
+            "selector": ".mute",
+            "text": ["..."]
+        }, {
+            "selector": "a[href^=\"/\"]>.fa-angle-left",
+            "text": ["Hyaa~"]
+        }, {
+            "selector": "a[href^=\"/page/\"]>.fa-angle-right",
+            "text": ["mh?"]
+        }, {
+            "selector": "#comment",
+            "text": ["You are a cute visitor I like you <3 Hya~"]
+        }, {
+            "selector": "#comment",
+            "text": ["Hyaa~"]
+        }, {
+            "selector": "#comment",
+            "text": ["H-hhyaa~ ...."]
+        }, {
+            "selector": "#comment",
+            "text": ["... mh? Is everything OK? :3"]
+        }, {
+            "selector": "#comment",
+            "text": ["Nyaaa~ do you like nekomimi :3 ?..."]
+        }, {
+            "selector": "#comment",
+            "text": [".... Hyaa~ mh..."]
+        }, {
+            "selector": "#comment",
+            "text": [":3"]
+        }, {
+            "selector": "#comment",
+            "text": ["Hyaa~"]
+        }, {
+            "selector": "#comment",
+            "text": ["..."]
+        }, {
+            "selector": "#comment",
+            "text": ["Ahhhhh~"]
+        }, {
+            "selector": "#comment",
+            "text": ["What if I call you onni-chan? Is it a bt weird :3 But you are soo cute! Hyaa~"]
+        }, {
+            "selector": "#comment",
+            "text": [">~< Hyaa~"]
+        }, {
+            "selector": "#comment",
+            "text": ["在这里可以调整<span style=\"color:DarkBlue;\">...</span>呢"]
+        }, {
+            "selector": "#comment",
+            "text": ["在这里可以调整<span style=\"color:DarkBlue;\">...</span>呢"]
+        }, {
+            "selector": "#comment",
+            "text": ["<span style=\"color:DarkBlue;\">播放列表</span>..."]
+        }, {
+            "selector": "#comment",
+            "text": ["有<span style=\"color:DarkBlue;\">歌词</span>..."]
+        }, {
+            "selector": "#live2d2,#live2d4",
+            "text": [
+              "M-mh?", "Hya~"
+
+            ]
+        }
+    ],
+    "click": [
+        {
+            "selector": "#live2d2,#live2d4",
+            "text": [
+              "Hey w-what are you doing?!", "Hyaa~ it tickles", "I-i-it tickles", "W-ww-why are you touching me?", "Nyaa~ Let's play together, okay?", "Nyaa! You're so mean, poking me like that!", "Hey >:3", "Eep! That tickles! Purr~", 
+              "Ehehe~ You're making me blush, nya!", "mh~", "hehe, (* ^ ω ^),", 	"ヽ(*・ω・)ﾉ Heyy~ why pocking me, click on the webpage instead", "(＃`Д´) Heeyy, users here click on me too much already"
+ 
+            ]
+        }
+    ],
+    "seasons": [
+        {
+            "date": "01/01",
+            "text": ["<span style=\"color:DarkBlue;\">元旦</span>The new year has begun again. This year is {year}~"]
+        }, {
+            "date": "02/14",
+            "text": ["又是一年<span style=\"color:DarkBlue;\">Valentine's Day, have you found your partner in {year}?"]
+        }, {
+            "date": "03/08",
+            "text": ["今天是<span style=\"color:DarkBlue;\">Women's Day!</span>！"]
+        }, {
+            "date": "03/12",
+            "text": ["今天是<span style=\"color:DarkBlue;\">植树节</span>，We need to protect the environment"]
+        }, {
+            "date": "04/01",
+            "text": ["悄悄告诉你一个秘密~<span style=\"background-color:#34495e;\">Today is April Fools' Day, don't be fooled~</span>"]
+        }, {
+            "date": "05/01",
+            "text": ["今天是<span style=\"color:DarkBlue;\">五一劳动节</span>，Have you planned where to go on vacation?"]
+        }, {
+            "date": "06/01",
+            "text": ["<span style=\"color:DarkBlue;\">儿童节</span>Happy times are always short, it would be nice if I could never grow up..."]
+        }, {
+            "date": "09/03",
+            "text": ["<span style=\"color:DarkBlue;\">中国人民抗日战争胜利纪念日</span>，Remember history, cherish the memory of the martyrs, cherish peace and create the future."]
+        }, {
+            "date": "09/10",
+            "text": ["<span style=\"color:DarkBlue;\">教师节</span>，Say hello to your teacher at school."]
+        }, {
+            "date": "10/01",
+            "text": ["<span style=\"color:DarkBlue;\">国庆节</span>，New China has been established for 71 years."]
+        }, {
+            "date": "11/05-11/12",
+            "text": ["今年的<span style=\"color:DarkBlue;\">双十一</span>Who did you spend it with?"]
+        }, {
+            "date": "12/20-12/31",
+            "text": ["这几天是<span style=\"color:DarkBlue;\">圣诞节</span>，The owner must have gone shopping again~"]
+        }
+    ]
+}
