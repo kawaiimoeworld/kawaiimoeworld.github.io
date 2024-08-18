@@ -19,7 +19,7 @@
  ****************************************************************************************************/
 const live2d_settings = {
     // 基本设置
-    'modelUrl': 'https://kawaiimoeworld.github.io/model',                        // 存放模型的文件夹路径，末尾不需要斜杠 model
+    'modelUrl': '../model',                        // 存放模型的文件夹路径，末尾不需要斜杠 model
     'tipsMessage': 'waifu-tips.json',           // 看板娘提示消息文件的路径，可以留空不加载
     // 模型设置
     'modelName': 'houmuya',                      // 默认加载的模型名称，仅在无本地记录的情况下有效
