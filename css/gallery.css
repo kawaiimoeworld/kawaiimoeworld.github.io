@@ -59,8 +59,8 @@
 
 #enlarged-image-container {
     position: relative;
-    max-width: 44%;
-    max-height: 44%;
+    max-width: 77%; /* Same as below obviously */
+    max-height: 77%; /* Probably to edit but picture with extreme ratio won't display good :(( But it should be OK like this */
 }
 
 #enlarged-image {
