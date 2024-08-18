@@ -11,3 +11,25 @@ body {
 	background-color: #fff0ff;
 }
 
+/* Literally my "how to make something responsive" CSS skills start */
+/* css is cute tbh */
+/* :3 */
+/* im tired */
+@media screen and (max-width: 800px) {
+    body {
+        zoom: 120%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        zoom: 150%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        zoom: 200%;
+    }
+}
+/* Literally my "how to make something responsive" CSS skills end */
