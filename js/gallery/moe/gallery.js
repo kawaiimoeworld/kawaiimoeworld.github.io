@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let imageData = {};
 
     function loadImageData() {
-        return fetch('https://kawaiimoeworld.github.io/db/moe_pictures.json') // Database of image data
+        return fetch('../../db/moe_pictures.json') // Database of image data
             .then(response => response.json())
             .then(data => {
                 imageData = data;
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const imagePromises = [];
         for (let i = 1; i <= totalImages; i++) {
             const img = new Image();
-            img.src = `images/moe/image${i}.png`; //path to edit
+            img.src = `../images/moe${i}.png`; //path to edit
             const promise = new Promise((resolve, reject) => {
                 img.onload = () => resolve(img);
                 img.onerror = () => reject(`Failed to load image${i}.png`);
