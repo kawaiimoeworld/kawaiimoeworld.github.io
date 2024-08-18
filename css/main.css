@@ -15,6 +15,13 @@ body {
 /* css is cute tbh */
 /* :3 */
 /* im tired */
+
+@media screen and (max-width: 2000px) {
+    body {
+        zoom: 100%;
+    }
+}
+
 @media screen and (max-width: 800px) {
     body {
         zoom: 137%;
