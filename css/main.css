@@ -17,13 +17,13 @@ body {
 /* im tired */
 @media screen and (max-width: 800px) {
     body {
-        zoom: 127%;
+        zoom: 137%;
     }
 }
 
 @media screen and (max-width: 600px) {
     body {
-        zoom: 127%;
+        zoom: 137%;
     }
 }
 
