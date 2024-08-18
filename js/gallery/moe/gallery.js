@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const imagePromises = [];
         for (let i = 1; i <= totalImages; i++) {
             const img = new Image();
-            img.src = `../images/moe${i}.png`; //path to edit
+            img.src = `../images/moe/image${i}.png`; //path to edit
             const promise = new Promise((resolve, reject) => {
                 img.onload = () => resolve(img);
                 img.onerror = () => reject(`Failed to load image${i}.png`);
