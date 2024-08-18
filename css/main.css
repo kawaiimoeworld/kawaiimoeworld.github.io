@@ -29,7 +29,7 @@ body {
 
 @media screen and (max-width: 400px) {
     body {
-        zoom: 77%;
+        zoom: 61%;
     }
 }
 /* Literally my "how to make something responsive" CSS skills end */
