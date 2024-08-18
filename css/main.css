@@ -17,19 +17,19 @@ body {
 /* im tired */
 @media screen and (max-width: 800px) {
     body {
-        zoom: 122%;
+        zoom: 110%;
     }
 }
 
 @media screen and (max-width: 600px) {
     body {
-        zoom: 144%;
+        zoom: 120%;
     }
 }
 
 @media screen and (max-width: 400px) {
     body {
-        zoom: 157%;
+        zoom: 135%;
     }
 }
 /* Literally my "how to make something responsive" CSS skills end */
