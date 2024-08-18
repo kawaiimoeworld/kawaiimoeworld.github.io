@@ -1,10 +1,14 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+@font-face {
+    font-family: dancingscript;
+    src: url("kawaiimoeworld.github.io/ttf/DancingScript-VariableFont_wght.ttf");
 }
 
-@font-face {
-    font-family: myFirstFont;
-    src: url(ArianaVioleta-dz2K.ttf);
+body {
+    margin: 0;
+    font-family: dancingscript;
+    border: 1rem double #E396DF;
+	padding : 7px;
+	background-color: #fff0ff;
+
 }
+
