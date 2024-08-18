@@ -17,7 +17,7 @@ body {
 /* im tired */
 @media screen and (max-width: 800px) {
     body {
-        zoom: 110%;
+        zoom: 100%;
     }
 }
 
@@ -29,7 +29,7 @@ body {
 
 @media screen and (max-width: 400px) {
     body {
-        zoom: 120%;
+        zoom: 77%;
     }
 }
 /* Literally my "how to make something responsive" CSS skills end */
