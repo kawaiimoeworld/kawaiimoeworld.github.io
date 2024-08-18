@@ -1,7 +1,7 @@
-<!DOCTYPE html>
 <html>
     <head>
-        <script rel="stylesheet" href="css/main.css"></script>
+        <link rel="stylesheet" href="css/main.css"/>
+        <link rel="stylesheet" href="css/gallery.css"
         <script src="js/main/naviguation.js"></script>
         <script src="js/gallery/moe/gallery.js"></script>
     </head>
@@ -10,9 +10,19 @@
             <div class="naviguation_bare">
                 <!-- Naviguation goes here-->
             </div>
-            <div class="gallery_contener">
+            <div class="gallery_container">
                 <!-- Gallery goes here-->
-            </div>
+                <div id="gallery" class="gallery"></div>
+                    <div id="overlay" class="overlay">
+                        <div id="enlarged-image-container">
+                            <img id="enlarged-image" src="" alt="Enlarged image">
+                            <div id="image-info">
+                                <h3 id="image-author"></h3>
+                                <p id="image-description"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
     </body>
 </html>

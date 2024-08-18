@@ -4,12 +4,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const enlargedImage = document.getElementById('enlarged-image');
     const imageAuthor = document.getElementById('image-author');
     const imageDescription = document.getElementById('image-description');
-    const totalImages = 3; // Image number to update
+    const totalImages = 13; // Image number to update
     const targetRowHeight = 200;
     let imageData = {};
 
     function loadImageData() {
-        return fetch('image_data.json') // Database of image data
+        return fetch('https://kawaiimoeworld.github.io/db/moe_pictures.json') // Database of image data
             .then(response => response.json())
             .then(data => {
                 imageData = data;
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const imagePromises = [];
         for (let i = 1; i <= totalImages; i++) {
             const img = new Image();
-            img.src = `images/image${i}.png`;
+            img.src = `images/moe/image${i}.png`; //path to edit
             const promise = new Promise((resolve, reject) => {
                 img.onload = () => resolve(img);
                 img.onerror = () => reject(`Failed to load image${i}.png`);
