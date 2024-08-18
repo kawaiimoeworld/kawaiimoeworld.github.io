@@ -30,6 +30,7 @@
     background-color: rgba(0, 0, 0, 0.8);
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .overlay img {
@@ -58,8 +59,8 @@
 
 #enlarged-image-container {
     position: relative;
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 44%;
+    max-height: 44%;
 }
 
 #enlarged-image {
