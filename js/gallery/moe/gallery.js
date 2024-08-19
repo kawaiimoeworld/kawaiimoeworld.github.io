@@ -1,3 +1,23 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const gallery = document.getElementById('gallery');
+    const overlay = document.getElementById('overlay');
+    const enlargedImage = document.getElementById('enlarged-image');
+    const imageAuthor = document.getElementById('image-author');
+    const imageDescription = document.getElementById('image-description');
+    const totalImages = 13; // Image number to update
+    const targetRowHeight = 200;
+    let imageData = {};
+
+    // Experimental dynmatic body size
+//function setBodyHeight(totalImages) {
+//    const heightPercentage = (totalImages / 13) * 120;
+    
+//    document.body.style.height = heightPercentage + '%';
+//}
+//setBodyHeight(totalImages);
+//Experimental body size end
+
+
 function loadImageData() {
     return fetch('../../db/moe_pictures.json') // Database of image data
         .then(response => response.json())
@@ -65,3 +85,54 @@ function displayImages(images) {
         loadingText.textContent = ''; // Clear text
     }
 }
+    function applyRowLayout(row, containerWidth) {
+        const totalAspectRatio = row.reduce((sum, item) => sum + item.aspectRatio, 0);
+        const rowHeight = containerWidth / totalAspectRatio;
+
+        row.forEach(({ img, aspectRatio }) => {
+            const item = document.createElement('div');
+            item.className = 'gallery-item';
+            const width = rowHeight * aspectRatio;
+            item.style.width = `${width}px`;
+            item.style.height = `${rowHeight}px`;
+            img.style.width = '100%';
+            img.style.height = '100%';
+            img.style.objectFit = 'cover';
+            item.appendChild(img);
+            gallery.appendChild(item);
+        });
+    }
+
+    function enlargeImage(e) {
+        if (e.target.tagName === 'IMG') {
+            const imageName = e.target.src.split('/').pop();
+            enlargedImage.src = e.target.src;
+            
+            if (imageData[imageName]) {
+                imageAuthor.textContent = imageData[imageName].author;
+                imageDescription.textContent = imageData[imageName].description;
+            } else {
+                imageAuthor.textContent = 'Unknown Author';
+                imageDescription.textContent = 'No description available';
+            }
+
+            overlay.style.display = 'flex';
+        }
+    }
+
+    function closeEnlargedImage() {
+        overlay.style.display = 'none';
+    }
+
+    loadImageData().then(() => {
+        loadImages();
+        window.addEventListener('resize', () => {
+            const images = Array.from(document.querySelectorAll('.gallery-item img'));
+            displayImages(images);
+        });
+        gallery.addEventListener('click', enlargeImage);
+        overlay.addEventListener('click', closeEnlargedImage);
+    });
+});
+
+    
