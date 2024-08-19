@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!--<link rel="stylesheet" href="css/main.css"/>-->
+      <link rel="stylesheet" href="css/naviguation.css"/>
+      <link rel="stylesheet" href="css/index.css"/>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Website title</title>
+      <base href="">
+   </head>
+   <body>
+    <div class="main_content">
+        <div class="naviguation_bare">
+            <!-- Naviguation goes here-->
+            <nav id='menu'>
+                <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+                <ul>
+                   <li><a href='https://kawaiimoe.world'>Home</a></li>
+                   <li>
+                      <a class='dropdown-arrow' href='http://'>Gallery</a>
+                      <ul class='sub-menus'>
+                         <li><a href='/gallery/moe_gallery.html'>Moe area</a></li>
+                         <li><a href='notavaliable.html'>Chibi area</a></li>
+                         <li><a href='notavaliable.html'>Nekomimi area</a></li>
+                         <li><a href='notavaliable.html'>Amazing art!</a></li>
+                      </ul>
+                   </li>
+                   <li><a href='kawaiiXR.html'>Comfy VR world O.O (WebXR)</a></li>
+                   <li><a href='about.html'>About & Contact</a></li>
+                </ul>
+             </nav>
+        </div>
+        <div class="welcome_container">
+            <div class="welcome_area">
+                <center>
+
+                    <p>If you read this that mean I'm currently writting this page</p> 
+                    <p>Sowwy~</p>
+                    <br>
+                    <br>
+                    <p>I'm actively working on the website, check back later~</p>
+   
+                </center>
+            </div>
+        </div>
+    </div>
+    <!-- live 2d moe start -->
+    <div id="waifu">
+        <div id="waifu-message"></div>
+        <div class="waifu-tool">
+           <span class="icon-next"></span>
+           <span class="icon-home"></span>
+           <span class="icon-message"></span>
+           <span class="icon-camera"></span>
+           <span class="icon-volumeup"></span>
+           <span class="icon-volumedown"></span>
+           <span class="icon-about"></span>
+           <span class="icon-cross"></span>
+        </div>
+        <canvas id="live2d2"></canvas>
+        <canvas id="live2d4"></canvas>
+     </div>
+     <!-- live 2d moe end -->
+     <!--    wrong paths?    -->
+     <script src="../js/live2d/live2d_bundle.js"></script>
+     <script async type="module" src="../js/live2d/waifu-tips.js"></script>
+     <!-- live 2d moe end -->
+</body>
+</html>

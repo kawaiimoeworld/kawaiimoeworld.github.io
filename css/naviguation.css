@@ -2,7 +2,7 @@
 
 /* not definitive (+ color palet) */
 li {
-    color: #ffffff; /* not needed but don't have strength to search for it */
+    /*color: #ffffff;*/ /* not needed but don't have strength to search for it */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
 }
 #menu {

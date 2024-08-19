@@ -1,0 +1,46 @@
+@font-face {
+    font-family: dancingscript;
+    src: url("../ttf/DancingScript-VariableFont_wght.ttf");
+}
+
+body {
+    margin: 0;
+    /*font-family: dancingscript;*/
+    border: 1rem double #E396DF;
+	padding : 7px;
+	background-color: #fff0ff;
+}
+
+
+html, body {
+    overflow: hidden; /* This prevents the page from scrolling */
+    height: 100%; /* Make sure the height is set to 100% */
+    margin: 0; /* Remove default margins */
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        zoom: 122%;
+    }
+}
+
+@media screen and (max-width: 4000x) {
+    body {
+        zoom: 100%;
+    }
+}
+p {
+    font-family: dancingscript;
+    line-height: 0.5;
+}
+
+
+.welcome_container{
+    padding-top: 17px;
+    padding-left : 40px;
+    padding-right: 40px;
+}
+
+.welcome_area{
+    font-size: 27px;
+}
