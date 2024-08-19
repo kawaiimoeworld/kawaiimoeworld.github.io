@@ -18,7 +18,7 @@ body {
 
 @media screen and (max-width: 4000px) {
     body {
-        zoom: 140%; /* Hot patch I need to investiguate more */
+        zoom: 217%; /* Hot patch I need to investiguate more */
     } 
 }
 
