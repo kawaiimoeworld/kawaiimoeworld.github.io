@@ -8,6 +8,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const targetRowHeight = 200;
     let imageData = {};
 
+    // Experimental dynmatic body size
+function setBodyHeight(totalImages) {
+    const heightPercentage = (totalImages / 13) * 120;
+    
+    document.body.style.height = heightPercentage + '%';
+}
+setBodyHeight(totalImages);
+//Experimental body size end
+
     function loadImageData() {
         return fetch('../../db/moe_pictures.json') // Database of image data
             .then(response => response.json())
