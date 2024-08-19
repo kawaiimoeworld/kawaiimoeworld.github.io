@@ -31,7 +31,7 @@ html, body {
 }
 p {
     font-family: dancingscript;
-    line-height: 0.5;
+    line-height: 0.5; /* need to be fixed for phone */
 }
 
 
