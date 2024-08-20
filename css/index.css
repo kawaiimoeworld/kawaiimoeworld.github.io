@@ -31,7 +31,7 @@ html, body {
 }
 p {
     font-family: dancingscript;
-    line-height: 0.5; /* need to be fixed for phone */
+    line-height: 1; /* need to be fixed for phone */ /*1?*/
 }
 
 
@@ -43,5 +43,5 @@ p {
 
 .welcome_area{
     /*font-size: 27px;*/
-    font-size: 1.5vw; /* THIS A TEST IF THERE IS SOMETHING WRONG ITS BECAUSE OF THIS IM GIONG TO GIT PUSH ANYWAYYYYYYYYYYYYY */
+    font-size: 1.8vw; /* THIS A TEST IF THERE IS SOMETHING WRONG ITS BECAUSE OF THIS IM GIONG TO GIT PUSH ANYWAYYYYYYYYYYYYY */
 } 
