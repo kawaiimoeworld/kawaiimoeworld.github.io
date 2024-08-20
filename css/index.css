@@ -36,6 +36,9 @@ p {
     line-height: 1; /* need to be fixed for phone */ /*1?*/
 }
 
+.naviguation_bare {
+    font-family: dancingscript;
+}
 
 .welcome_container{
     padding-top: 17px;
