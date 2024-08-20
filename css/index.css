@@ -21,12 +21,14 @@ html, body {
 @media screen and (max-width: 500px) {
     body {
         zoom: 122%;
+        font-size: 2.2vw;
     }
 }
 
 @media screen and (max-width: 4000x) {
     body {
         zoom: 100%;
+        font-size: 1.8vw;
     }
 }
 p {
