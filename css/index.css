@@ -42,6 +42,6 @@ p {
 }
 
 .welcome_area{
-    font-size: 27px;
+    /*font-size: 27px;*/
     font-size: 4vw; /* THIS A TEST IF THERE IS SOMETHING WRONG ITS BECAUSE OF THIS IM GIONG TO GIT PUSH ANYWAYYYYYYYYYYYYY */
-}
+} 
