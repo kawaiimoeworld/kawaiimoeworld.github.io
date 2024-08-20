@@ -21,7 +21,7 @@ html, body {
 @media screen and (max-width: 500px) {
     body {
         zoom: 122%;
-        font-size: 2.2vw;
+        /*font-size: 2.2vw;*/
     }
 }
 
@@ -47,6 +47,7 @@ p {
 }
 
 .welcome_area{
+    visibility: visible; /*it's just to put something */
     /*font-size: 27px;*/
-    font-size: 1.8vw; /* THIS A TEST IF THERE IS SOMETHING WRONG ITS BECAUSE OF THIS IM GIONG TO GIT PUSH ANYWAYYYYYYYYYYYYY */
+    /*font-size: 1.8vw;*/ /* THIS A TEST IF THERE IS SOMETHING WRONG ITS BECAUSE OF THIS IM GIONG TO GIT PUSH ANYWAYYYYYYYYYYYYY */
 } 
