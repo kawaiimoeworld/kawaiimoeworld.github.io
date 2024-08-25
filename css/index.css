@@ -13,8 +13,8 @@ body {
 
 
 html, body {
-    overflow: hidden; /* This prevents the page from scrolling */
-    height: 100%; /* Make sure the height is set to 100% */
+    /*overflow: hidden;*/ /* This prevents the page from scrolling */ /*nvm let's make it srollable*/
+    height: 100%; /* Make sure the height is set to 100% */ /*bro gotta remove idk */
     margin: 0; /* Remove default margins */
 }
 
