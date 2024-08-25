@@ -17,22 +17,23 @@
                 <nav id='menu'>
                     <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
                     <ul>
-                       <li><a href='http://'>Home</a></li>
+                       <li><a href='https://kawaiimoe.world'>Home</a></li>
                        <li>
-                          <a class='dropdown-arrow' href='http://'>Gallery</a>
-                          <ul class='sub-menus'>
-                             <li><a href='http://'>Moe area</a></li>
-                             <li><a href='http://'>Chibi area</a></li>
-                             <li><a href='http://'>Nekomimi area</a></li>
-                             <li><a href='http://'>Amazing art!</a></li>
-                          </ul>
+                            <a class='dropdown-arrow' href='#'>Gallery</a>
+                            <ul class='sub-menus'>
+                               <li><a href='moe_gallery.html'>Moe area</a></li>
+                               <li><a href='../notavaliable.html'>Chibi area</a></li>
+                               <li><a href='nekomimi_gallery.html'>Nekomimi area</a></li>
+                               <li><a href='../notavaliable.html'>Amazing art!</a></li>
+                            </ul>
                        </li>
-                       <li><a href='http://'>Comfy VR world O.O (WebXR)</a></li>
-                       <li><a href='http://'>About & Contact</a></li>
+                       <li><a href='../kawaiiXR.html'>Comfy VR world O.O (WebXR)</a></li>
+                       <li><a href='../about.html'>About & Contact</a></li>
                     </ul>
                  </nav>
             </div>
             <div class="gallery_container">
+                <center><p class="loading_text"></p></center> <!-- center is outdated but who WHO here would use some margin auto or some padding calulation magic to make just a simple <p> centered like who, no one will add some css for this I don't want that, every web browser still support <center> center will never die even if outdated -->
                 <!-- Gallery goes here-->
                 <div id="gallery" class="gallery"></div>
                     <div id="overlay" class="overlay">
@@ -46,5 +47,25 @@
                     </div>
                 </div>
         </div>
+        <!-- prob not needed here
+        <div id="waifu">
+            <div id="waifu-message"></div>
+            <div class="waifu-tool">
+               <span class="icon-next"></span>
+               <span class="icon-home"></span>
+               <span class="icon-message"></span>
+               <span class="icon-camera"></span>
+               <span class="icon-volumeup"></span>
+               <span class="icon-volumedown"></span>
+               <span class="icon-about"></span>
+               <span class="icon-cross"></span>
+            </div>
+            <canvas id="live2d2"></canvas>
+            <canvas id="live2d4"></canvas>
+         </div>
+        -->
+         <!--    wrong paths?    -->
+         <script src="../js/live2d/live2d_bundle.js"></script> <!-- to edit (js new directory) -->
+         <script async type="module" src="../js/live2d/waifu-tips.js"></script>
     </body>
 </html>
